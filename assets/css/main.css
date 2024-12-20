@@ -803,7 +803,7 @@ section,
 .about .content {
   /* background-color: color-mix(in srgb, var(--accent-color), transparent 95%); */
   background-color: #F2F6FA;
-  padding: 40px;
+  padding: 40px 35px;
   border-radius: 10px 0 0 10px;
 }
 .about img {
@@ -826,6 +826,7 @@ section,
   margin: 15px 0 30px 0;
   line-height: 24px;
   /* color: var(--dark-blue); */
+  text-align: justify;
 }
 
 .about .content .btn-read-more,
@@ -2836,7 +2837,9 @@ section,
   .hero p {
     font-size: 18px;
   }
-
+  .hero .hero-eloquenc-art {
+    background-image: url(/assets/templates/img/intervention-theatre/rob-laughter-WW1jsInXgwM-unsplash.jpg) !important;
+  }
   .hero-showroom {
     display: flex;
     flex-direction: column;
@@ -2930,4 +2933,11 @@ section,
 .resize-mams-ikigai{
   height: 500px;
   object-fit: cover;
+}
+
+.hero-img-large { display: none; }
+
+@media (min-width: 761px) {
+  .hero-img-small { display: none; }
+  .hero-img-large { display: block; }
 }
