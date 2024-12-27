@@ -675,6 +675,7 @@ ul {
 
 #footer .credits a {
   color: #fff;
+  text-decoration: underline;
 }
 
 #footer .social-links a {
