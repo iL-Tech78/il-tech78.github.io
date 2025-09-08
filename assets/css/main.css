@@ -2667,7 +2667,7 @@ section,
 
 .hero .carousel-item::before {
   content: "";
-  background-color: color-mix(in srgb, #000, transparent 60%);
+  background-color: color-mix(in srgb, #000, transparent 50%);
   position: absolute;
   inset: 0;
 }
