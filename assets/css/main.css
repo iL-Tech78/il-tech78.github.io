@@ -2955,10 +2955,14 @@ section,
 }
 
 /* PARTENAIRE */
+.logo-sncf {
+  max-width: 150%;
+}
 .logo-gpso,
 .logo-education-nationale{
   max-width:75%
 }
+
 .logo-education-nationale {
   max-width: 80%;
 }
